@@ -63,7 +63,7 @@ app.get('/:col', async (req, res) => {
 // Catch all handler for all other request.
 app.use('*', (req, res) => {
   console.log('test')
-  res.json({ msg: 'Welcome to our REST API' }).end()
+  res.json({ msg: 'Welcome to our REST API, yah!' }).end()
 })
 
 // Start the server
